@@ -23,7 +23,7 @@ const Bot = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3001/v1/bot/message",
+        "https://bothumai.onrender.com/v1/bot/message",
         {
           text: userInput,
         },
